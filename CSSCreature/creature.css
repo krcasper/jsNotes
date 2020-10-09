@@ -1,0 +1,15 @@
+.balloon1{
+    display: inline-block;
+    position: relative;
+    top: 22px;
+    min-height: 16em;
+    min-width: 16em;
+    border-radius:150%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 425%;
+    border-top-left-radius: 425%;
+    border-top-radius: 220%;
+    background: linear-gradient(5deg, #00aa88,#004589);
+    transform: rotate(135deg);
+    z-index: 2;
+  }

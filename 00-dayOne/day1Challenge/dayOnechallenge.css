@@ -1,0 +1,61 @@
+/* .classOne h1{
+color: lightgreen;
+text-align: center;
+} */
+
+/* No need to use .classOne if you want to target a base element in the HTML code. Could have written as:
+h1 {
+    color: lightgreen;
+    text-align: center
+ } */
+
+.classOne h3{
+color: blue;
+}
+
+.classOne p{
+    color: red;
+}
+
+.classOne {
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 25px;
+    background: lightgray;
+}
+
+/* Border could also be formatted as:
+
+border 3x solid black
+
+For border radius: Danielle used border-radius: 3em. "em" means the size of the letter m on your screen.
+    Using these sizes are more responsive to screen size vs. pixels.
+*/
+
+#one {
+    border-width: 3px;
+    border-radius: 35px;
+    border-style: solid;
+    background: lightgray;
+    text-align: center;
+}
+
+#two {
+    border-width: 3px;
+    border-radius: 25px;
+    border-style: solid;
+    background: lightgray;
+    text-align: center;
+}
+
+#three {
+    border-width: 3px;
+    border-radius: 25px;
+    border-style: solid;
+    background: lightgray;
+    text-align: center;
+}
+
+/* Danielle added "width:" to the class for the truths and lies.
+She also used "display: inline block" */

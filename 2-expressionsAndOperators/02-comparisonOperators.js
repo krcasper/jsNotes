@@ -1,3 +1,6 @@
+/* //* Comparison operators will output boolean (true vs. false); additionally, they DO NOT change the value of the variable. Commonly used in CONDITIONAL LOGIC (see files under 3-controlFlowandErrorHandling for the conditional logic lessons)
+*/
+
 // EQUAL (operator is ==)
 console.log("3" == 3); // output: true. double equals just compare the values. if it says true, they're the same. if it says false, they aren't.
 console.log(3 == 3)

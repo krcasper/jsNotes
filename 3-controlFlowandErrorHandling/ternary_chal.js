@@ -14,3 +14,12 @@ CHALLENGE
         console.log("Sorry, you're too young to do anything fun.");
     }
 */
+
+let age = 17;
+
+let message = age >= 25 ? "Yay! You can rent a car!" : (age >= 21 ? "Yay! You can drink!" : (age >= 18 ?"You can vote!" : "Sorry!"))
+
+console.log(message)
+
+    
+    

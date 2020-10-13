@@ -1,38 +1,44 @@
-// let isOn = false;
-// // (<if some expression>) {<do something>}
-// if (isOn == true) {
-// //     console.log("The light is on!");
-// // };
+let isOn = false;
 
-// if (isOn) {
-//     console.log("The light is on!");
-// };
+//! (<if some expression>) {<do something>}
 
-// if (isOn == false) {
-//     console.log("The light is off");
-// };
 
-// weather = 75;
+if (isOn == true) {
+    console.log("The light is on!");
+};
 
-// // if (weather < 70) {
-// //     console.log("Wear a jacket");
-// // } else ()
+if (isOn) {
+    console.log("The light is on!");
+};
 
-// if (weather < 70) {
-//     console.log("Wear a jacket")
-// } else { // else can follow and if statement and will fire
-//     // if the above statements didn't
-//     console.log("No jacket necessary!");
-// };
+if (isOn == false) {
+    console.log("The light is off");
+};
 
-// SWITCH STATEMENTS:
+weather = 75;
+
+
+
+if (weather < 70) {
+    console.log("Wear a jacket")
+} else { // ! else can follow and if statement and will fire if the above statements didn't
+    console.log("No jacket necessary!");
+};
+
+
+
+//* SWITCH STATEMENTS:
+
+
+
+
 let officeCharacter="Pam";
 
 switch(officeCharacter) {
-    //kinda like if officeCharacter == "Michael"
+    //! kinda like if officeCharacter == "Michael"
     case "Michael":
         console.log("My mind is giong a mile an hour");
-        break; //break will leave the switch after the block runs
+        break; //! break will leave the switch after the block runs
     case "Dwight":
         console.log("Perfectenshclag");
         break;
@@ -43,7 +49,7 @@ switch(officeCharacter) {
         console.log(`I'm sorry, ${officeCharacter}, but do I know you`);
 }
 
-// OUTPUT WAS: I'm sorry Pam, but do I know you?
+// !OUTPUT WAS: I'm sorry Pam, but do I know you?
 
 
 
@@ -62,10 +68,13 @@ switch (dessert) {
         console.log("Not on the menu.");
 }
 
-// OUTPUT WAS: Not on the menu.
+// !OUTPUT WAS: Not on the menu.
 
 
-// else if tangent:
+//* ELSE-IF
+
+
+
 if (dessert == "cake") {
     console.log("Cake is great!");
 } else if (dessert == "ice cream") {
